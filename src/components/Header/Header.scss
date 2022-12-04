@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b5b8b1;
+    padding: 20px 60px;
+}
+
+.nav {
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+    &__item {
+        padding: 8px;
+        transition: all 0.1s ease;
+
+        &:hover {
+            padding-bottom: 7px;
+            border-bottom: #020202 1px solid;
+        }
+    }
+
+    &__link {
+        font-size: 20px;
+        color: #020202;
+        text-decoration: none;
+    }
+}
