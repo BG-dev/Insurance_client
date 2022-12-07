@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  height: calc(100vh - 110px);
+}
+
+.agents {
+  flex: 1;
+  overflow: scroll;
+  border-right: 1px solid #aaaaaa;
+
+  &__title {
+    font-size: 36px;
+    padding: 16px;
+  }
+
+  &__button {
+    margin: 0 0 20px 16px;
+  }
+}
+
+.agent-content {
+  flex: 3;
+  padding: 20px;
+}
+
+.agent {
+  &__person {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 15px;
+  }
+
+  &__name {
+    font-size: 30px;
+  }
+
+  &__status {
+    padding: 8px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #5dbd7e;
+    user-select: none;
+  }
+
+  &__address {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &__delete {
+    position: relative;
+    bottom: 70px;
+    left: 800px;
+  }
+}

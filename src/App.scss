@@ -1,0 +1,46 @@
+.custom-form {
+  min-width: 35vw;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+}
+
+.span-error {
+  color: #cf4242;
+  font-size: 13px;
+  font-weight: 100;
+  margin: 2px 0 0 1px;
+}
+
+label {
+  color: #020202;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+input {
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid #aaaaaa;
+  font-size: 14px;
+  padding: 7px;
+
+  &.big-text {
+    min-height: 100px;
+  }
+
+  &:focus {
+    border: 1px solid #2042b1;
+  }
+
+  &.invalid {
+    border: 1px solid #cf4242;
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  padding: 10px;
+  border-bottom: 1px solid #aaaaaa;
+  cursor: pointer;
+  &.selected {
+    background-color: #cfdbe8;
+  }
+}
+
+.agent {
+  &-name {
+    font-size: 18px;
+    color: #020202;
+    margin-bottom: 6px;
+  }
+
+  &-date {
+    font-size: 14px;
+    color: #353535;
+  }
+}
